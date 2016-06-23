@@ -381,7 +381,7 @@ header {
   padding: 50px 0;
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
   position: relative;
-  width: 1170px;
+  width: 1600px;
   margin: 0 auto;
   -webkit-transition: padding 300ms ease-in-out;
           transition: padding 300ms ease-in-out; }
@@ -415,8 +415,23 @@ header {
     display: inline-block; }
   header .member-actions {
     position: absolute;
-    right: 0;
+    right: 0px;
     top: 41px;
+    -webkit-transition: all 300ms ease-in-out;
+            transition: all 300ms ease-in-out; }
+
+  header ul.price-actions li {
+    display: inline; }
+    header ul.price-actions li a {
+      color: #fff; }
+      header ul.price-actions li a:hover {
+        color: #FF5274; }
+  header .header-nav {
+    display: inline-block; }
+  header .price-actions {
+    position: absolute;
+    right: 0;
+    top: 122px;
     -webkit-transition: all 300ms ease-in-out;
             transition: all 300ms ease-in-out; }
 
